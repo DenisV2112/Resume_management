@@ -20,7 +20,7 @@ curriculum = {
             "phone": "001-512-801-0651",
             "adress": {
                 "city": "Gonzalezmouth",
-                "estate": "Michigan",
+                "state": "Michigan",
                 "postal_code": "92488",
                 "country": "Bermuda"
             }
@@ -30,27 +30,36 @@ curriculum = {
             "relation": "coworker",
             "phone": "320-580-0647",
         },
-        "academic_training": {
-           [
-              { "academic_center":"Andre Eloy",
-                "years_coused": 9,
-                "qualification": "C# with data base"
-                }
-           ]
-        },
-        "profeccional_experiences": {
-            "idioma": "Francés",
-            "newsletter": True,
-            "temas_interes": ["arte", "moda", "tecnología"]
-        },
-        "Certifications":{
-            [
-                {}
-            ]
-        },
-        "idioma": ["Francés"],
-        "Skills": []
-
-    
+        "professional_info":{
+            "academic_training": {
+                [{
+                     "academic_center":"Andre Eloy",
+                     "years_coused": 9,
+                     "qualification": "C# with data base"
+                     },
+                {
+                     "academic_center":"Cesde",
+                     "years_coused": 1,
+                     "qualification": "C# with data base"
+                     }]
+            },
+            "profeccional_experiences": {
+                [{
+                    "company":"InPlease",
+                    "rol":"FrontEnd Developer",
+                    "duration_months":"13"
+                    }]
+            },
+            "Certifications":{
+                [{
+                    "academic_center":"Cesde",
+                    "years_coused": 1,
+                    "qualification": "C# with data base"
+                    }]
+            },
+            "idioma": ["Francés", "Ingles"],
+            "Skills": ["Responsavility", "Adaptivility"]
+        }
     },
     }
+
