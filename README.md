@@ -1,6 +1,6 @@
 # Resume_management
 
-# Documentation
+ <p align="center"># Documentation</p>
 
 ## We desided to use git flow and a structure: 
 ### main: to the main production branch, representing the stable, released code. 
