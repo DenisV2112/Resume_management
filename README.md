@@ -1,7 +1,7 @@
 # Resume_management
 
 <div align="center">
- # Documentation
+# Mi Título Centrado
 </div>
 
 ## We desided to use git flow and a structure: 
