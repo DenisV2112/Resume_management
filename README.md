@@ -1,8 +1,6 @@
 # Resume_management
 
-
 ## Documentation
-
 
 ### We desided to use git flow and a structure: 
 #### - main: to the main production branch, representing the stable, released code. 
@@ -11,17 +9,11 @@
 #### - release: A branch created from develop to prepare for a release, addressing minor bugs and final touches before releasing. 
 #### - hotfix: Branches created from main to address  bugs in the production code.
 
-
 ![alt text](image-1.png)
-
-
 
 ### Also to describe variables we use "snake_case" (variable_case) and "camelCase" (funtionName) to named def in the proyect.
 
-
 ![alt text](image-2.png)
-
-
 
 ## Library used:
 1. • datetime (to calculate time of age and experiences)
