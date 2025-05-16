@@ -19,8 +19,9 @@
 ## Also to describe variables we use "snake_case" (variable_case) and "camelCase" (funtionName) to named def in the proyect.
 
 <div align="center">
-![alt text](image-2.png)
+
 </div>
+![alt text](image-2.png)
 
 # Library used:
 1. • datetime (to calculate time of age and experiences)
