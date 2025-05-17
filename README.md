@@ -26,20 +26,8 @@
 
 
 ### Our proyect structure:
- > ├──Src
- > |      ├──backend
- > |      |        ├──conection-api
- > |      ├──App.py
- > |      ├──Curriculum.py
- > |      ├──IdGenerator.py
- > |      ├──MailSetValidator.py
- > |      ├──Update.py
- > |      ├──ConsultCurriculum.py
- > |      ├──
- > |      ├──Reports.py
- > ├──README.md
 
-
+![alt text](image-3.png)
 
  ### Work Organization
 
@@ -52,15 +40,15 @@
 Resume management system that allows you to record personal, educational, professional, reference, and other data, with options to view, update, and export each registered resume.
 
 ### Dependences:
-- Python 3.10 [Link Text](#https://www.python.org/downloads/)
-  or also you can watch this video: https://www.youtube.com/watch?v=cu_ykIfBprI(https://www.youtube.com/watch?v=9o4gDQvVkLU)
+Python 3.10 [Link Text](#https://www.python.org/downloads/)
+or also you can watch this video: https://www.youtube.com/watch?v=cu_ykIfBprI(https://www.youtube.com/watch?v=9o4gDQvVkLU)
 
 ### Functions:
-# 1. Register new curriculum
-# 2. Get some curriculum from database
-# 3. Update the curriculum by ID, Name or Mail
-# 4. Create a Report 
-# 5. Close the program
+ 1. Register new curriculum
+ 2. Get some curriculum from database
+ 3. Update the curriculum by ID, Name or Mail
+ 4. Create a Report 
+ 5. Close the program
 
 ### How to run:
 
