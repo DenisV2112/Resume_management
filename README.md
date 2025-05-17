@@ -35,7 +35,7 @@
 
  ### Work Organization
 
-#### • Jira [Link Text](#)
+#### • Jira (#https://contactdenissanchez.atlassian.net/jira/software/projects/SCRUM/boards/1)
 
 ![alt text](Jira_Table-First-Sprim.png)
 
@@ -44,7 +44,7 @@
 Resume management system that allows you to record personal, educational, professional, reference, and other data, with options to view, update, and export each registered resume.
 
 ### Dependences:
-#### Python 3.10 [Link Text](#https://www.python.org/downloads/)
+#### Python 3.10 (#https://www.python.org/downloads/)
 #### or also you can watch this video: https://www.youtube.com/watch?v=cu_ykIfBprI(https://www.youtube.com/watch?v=9o4gDQvVkLU)
 
 ### Functions:
@@ -69,5 +69,5 @@ Resume management system that allows you to record personal, educational, profes
 
  1. Donwload Python 3.10
  2. Donwload Resume management zip
- 3. Open cmd (Terminal) [Link text](#https://www.youtube.com/watch?v=JvHHgnOqW4w)
+ 3. Open cmd (Terminal) (#https://www.youtube.com/watch?v=JvHHgnOqW4w)
  4. Go to the folder with App and type in terminal *python App.py*
