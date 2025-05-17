@@ -1,7 +1,8 @@
 # Resume_management
 
-#Group: Ritchie: Cristian Chaverra, Samuel Quintero
-        Van Rossum: Denis Sanchez
+# Group: 
+## Ritchie: Cristian Chaverra, Samuel Quintero
+## Van Rossum: Denis Sanchez
 
 ## Documentation
 
