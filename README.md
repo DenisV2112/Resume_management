@@ -54,6 +54,70 @@ Resume management system that allows you to record personal, educational, profes
  4. Create a Report 
  5. Close the program
 
+### Simulated Data:
+curriculum = {
+    "00000": {
+        "name": "Daniel",
+        "lastname": "Herrera",
+        "birthday":("1987-07-15"),
+        "id":("21909218219"),
+        "contact": {
+            "mail": "garyford@gmail.com",
+            "phone": "001-512-801-0651",
+            "adress": {
+                "city": "Gonzalezmouth",
+                "state": "Michigan",
+                "postal_code": "92488",
+                "country": "Bermuda"
+            }
+        },
+        "references": {
+            "name": "bradley",
+            "relation": "coworker",
+            "phone": "320-580-0647",
+        },
+        "professional_info":{
+            "academic_training": 
+                [{
+                     "academic_center":"Andre Eloy",
+                     "years_coused": 9,
+                     "qualification": "C# with data base"
+                     },
+                {
+                     "academic_center":"Cesde",
+                     "years_coused": 1,
+                     "qualification": "C# with data base"
+                     }]
+            },
+            "profession_experiences": 
+                [{
+                    "company":"InPlease",
+                    "rol":"FrontEnd Developer",
+                    "duration_months":"13"
+                     }, {
+                    "company":"InPlease",
+                    "rol":"FrontEnd Developer",
+                    "duration_months":"13"
+                    }],
+            "Certifications":
+                [{
+                    "academic_center":"Cesde",
+                    "years_coused": 1,
+                    "qualification": "C# with data base"
+                    }]
+            ,
+            "idioma": ["Francés", "Ingles"],
+            "Skills": ["Responsavility", "Adaptivility"]
+        }
+    }
+
+### Librarys:
+
+`json`: To serialize and save data in `.json` files
+`datetime`: To obtain report generation dates       
+
+
+
 ### How to run:
 
  1. Donwload Python 3.10
