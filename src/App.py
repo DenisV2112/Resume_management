@@ -30,32 +30,32 @@ from colorama import init, Fore, Style
 
 
 init()
-
-print(f"""
- ------------------------
- | {Fore.BLUE} Menú principal {Style.RESET_ALL}     |
- |----------------------|
- | {Fore.GREEN} 1. Añadir {Style.RESET_ALL}          |
- | {Fore.GREEN} 2. Consultar {Style.RESET_ALL}       | 
- | {Fore.GREEN} 3. Generar Reporte {Style.RESET_ALL} |
- | {Fore.GREEN} 4. Actualizar {Style.RESET_ALL}      |
- | {Fore.GREEN} 5. Salir {Style.RESET_ALL}           |
- ------------------------""")
-
-option = check_int("Ingrese la opcion a realizar: ")
-
 while True:
-    match opcion:
-        case '1':
-            register()
-        case '2':
-            consult_curriculum(curriculum)
-        case '3':
-            show_menu()
-        case '4':
-            reports(curriculum)
-        case '5':
-            print("Saliendo del sistema.")
-            break
-        case _:
-            print("Opción inválida. Intente nuevamente.")
+    print(f"""
+     ------------------------
+     | {Fore.BLUE} Menú principal {Style.RESET_ALL}     |
+     |----------------------|
+     | {Fore.GREEN} 1. Añadir {Style.RESET_ALL}          |
+     | {Fore.GREEN} 2. Consultar {Style.RESET_ALL}       | 
+     | {Fore.GREEN} 3. Generar Reporte {Style.RESET_ALL} |
+     | {Fore.GREEN} 4. Actualizar {Style.RESET_ALL}      |
+     | {Fore.GREEN} 5. Salir {Style.RESET_ALL}           |
+     ------------------------""")
+    
+    option = check_int("Ingrese la opcion a realizar: ")
+    
+    
+        match opcion:
+            case '1':
+                register()
+            case '2':
+                consult_curriculum(curriculum)
+            case '3':
+                show_menu()
+            case '4':
+                reports(curriculum)
+            case '5':
+                print("Saliendo del sistema.")
+                break
+            case _:
+                print("Opción inválida. Intente nuevamente.")
