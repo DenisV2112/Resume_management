@@ -1,6 +1,6 @@
 import random
 ids_generates = set() #Automatic ID Generator for list length
-def id(curriculum):
+def id():
     while True:
         idNum = random.randint(1, 9999)
         idFormated = f"{idNum:04d}"
