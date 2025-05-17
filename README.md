@@ -16,7 +16,6 @@
 ![alt text](image-1.png)
 
 
-
 ### Also to describe variables we use "snake_case" (variable_case) and "camelCase" (funtionName) to named def in the proyect.
 
 
