@@ -30,7 +30,8 @@
 
 ### Our proyect structure:
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/8cc406c5-abc9-454c-bc5f-632c24781401)
+
 
  ### Work Organization
 
