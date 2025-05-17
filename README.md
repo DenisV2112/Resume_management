@@ -44,8 +44,8 @@
 Resume management system that allows you to record personal, educational, professional, reference, and other data, with options to view, update, and export each registered resume.
 
 ### Dependences:
-Python 3.10 [Link Text](#https://www.python.org/downloads/)
-or also you can watch this video: https://www.youtube.com/watch?v=cu_ykIfBprI(https://www.youtube.com/watch?v=9o4gDQvVkLU)
+#### Python 3.10 [Link Text](#https://www.python.org/downloads/)
+#### or also you can watch this video: https://www.youtube.com/watch?v=cu_ykIfBprI(https://www.youtube.com/watch?v=9o4gDQvVkLU)
 
 ### Functions:
  1. Register new curriculum
