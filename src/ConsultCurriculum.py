@@ -143,63 +143,7 @@ def visualizar_hoja_de_vida(hoja_de_vida, seccion=None):
         imprimir_seccion("Idiomas", hoja_de_vida["professional_info"].get("idioma", []))
         imprimir_seccion("Habilidades", hoja_de_vida["professional_info"].get("Skills", []))
 
-# main.py
-if __name__ == '__main__':
-    #  Base de datos proporcionada
-    curriculum = {
-        1: {
-            "name": "Daniel",
-            "lastname": "Herrera",
-            "birthday": ("1987-07-15"),
-            "id": ("21909218219"),
-            "contact": {
-                "mail": "garyford@gmail.com",
-                "phone": "001-512-801-0651",
-                "adress": {
-                    "city": "Gonzalezmouth",
-                    "state": "Michigan",
-                    "postal_code": "92488",
-                    "country": "Bermuda"
-                }
-            },
-            "references": {
-                "name": "bradley",
-                "relation": "coworker",
-                "phone": "320-580-0647",
-            },
-            "professional_info": {
-                "academic_training": [
-                    {
-                        "academic_center": "Andre Eloy",
-                        "years_coused": 9,
-                        "qualification": "C# with data base"
-                    },
-                    {
-                        "academic_center": "Cesde",
-                        "years_coused": 1,
-                        "qualification": "C# with data base"
-                    }
-                ],
-                "profeccional_experiences": [
-                    {
-                        "company": "InPlease",
-                        "rol": "FrontEnd Developer",
-                        "duration_months": "13"
-                    }
-                ],
-                "Certifications": [
-                    {
-                        "academic_center": "Cesde",
-                        "years_coused": 1,
-                        "qualification": "C# with data base"
-                    }
-                ],
-                "idioma": ["Francés", "Ingles"],
-                "Skills": ["Responsavility", "Adaptivility"]
-            }
-        },
-    }
-
+def consult_curriculum(curriculum):
     while True:
         print("\n--- Consultar Hojas de Vida ---")
         print("1. Buscar hoja de vida")

@@ -87,7 +87,3 @@ def show_menu():
             break
         else:
             print("Opción no válida. Intenta de nuevo.")
-
-
-# Ejecuta el menú
-show_menu()

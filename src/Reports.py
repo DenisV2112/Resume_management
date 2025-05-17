@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-def reports(curriculum_data, min_experience_years=None, required_qualification=None):
+def reports(curriculum, min_experience_years=None, required_qualification=None):
     """
     Exports filtered curriculum reports to JSON files based on given criteria.
 
@@ -14,12 +14,13 @@ def reports(curriculum_data, min_experience_years=None, required_qualification=N
     experience_report = []
     certification_report = []
 
-    for cid, data in curriculum_data.items():
+    for cid, data in curriculum.items():
+            
         prof_info = data.get("professional_info", {})
-        
+
         # Filter by experience
-        experiences = prof_info.get("profession_experiences", [{}])
-        total_months = sum([int(exp["duration_months"]) for exp in experiences[0]]) if experiences else 0
+        experiences = prof_info.get("profession_experiences", [])
+        total_months = sum(int(exp["duration_months"]) for exp in experiences)
         total_years = total_months / 12
 
         if min_experience_years is not None and total_years >= min_experience_years:
@@ -31,12 +32,15 @@ def reports(curriculum_data, min_experience_years=None, required_qualification=N
             })
 
         # Filter by certification or training
-        certifications = prof_info.get("Certifications", [{}])
-        trainings = prof_info.get("academic_training", [{}])
-        cert_titles = [cert["qualification"] for cert in certifications[0]] if certifications else []
-        training_titles = [train["qualification"] for train in trainings[0]] if trainings else []
+        certifications = prof_info.get("Certifications", [])
+        trainings = prof_info.get("academic_training", [])
 
-        if required_qualification and (required_qualification in cert_titles or required_qualification in training_titles):
+        cert_titles = [cert["qualification"] for cert in certifications] if certifications else []
+        training_titles = [train["qualification"] for train in trainings] if trainings else []
+
+        if required_qualification and (
+            required_qualification in cert_titles or required_qualification in training_titles
+        ):
             certification_report.append({
                 "id": cid,
                 "name": data["name"],
